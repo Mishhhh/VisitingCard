@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        >
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manas Mishra"
+            android:textColor="#3b3b3b"
+            android:textSize="40sp" />
+
+        <ImageView
+            android:id="@+id/imageview1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_microsoft"
+            android:layout_toRightOf="@id/textview1"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        >
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mishra aka Gaynus"
+            android:layout_gravity="center"
+            android:textColor="#3b3b3b"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/textview3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android Developer"
+            android:layout_gravity="center"
+            android:textColor="#3b3b3b"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/textview4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8555887986"
+            android:layout_gravity="center"
+            android:textColor="#3b3b3b"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textview5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hyderabad, Telangana"
+            android:layout_gravity="center"
+            android:textColor="#3b3b3b"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/textview6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="gaynussirmail@gmail.com"
+            android:layout_gravity="center"
+            android:textColor="#3b3b3b"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</RelativeLayout>
